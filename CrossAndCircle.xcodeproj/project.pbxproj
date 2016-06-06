@@ -13,6 +13,9 @@
 		E89ED7101CF9CD7000AE112C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89ED70F1CF9CD7000AE112C /* Assets.xcassets */; };
 		E89ED7131CF9CD7000AE112C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89ED7111CF9CD7000AE112C /* LaunchScreen.storyboard */; };
 		E89ED71E1CF9CD7000AE112C /* CrossAndCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ED71D1CF9CD7000AE112C /* CrossAndCircleTests.swift */; };
+		E8F45B131CFB20BF00673303 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F45B121CFB20BF00673303 /* AVFoundation.framework */; };
+		E8F45B151CFB216700673303 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8F45B141CFB216700673303 /* music.mp3 */; };
+		E8F45B171CFB268400673303 /* bensound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8F45B161CFB268400673303 /* bensound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		E89ED7191CF9CD7000AE112C /* CrossAndCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossAndCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89ED71D1CF9CD7000AE112C /* CrossAndCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossAndCircleTests.swift; sourceTree = "<group>"; };
 		E89ED71F1CF9CD7000AE112C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F45B121CFB20BF00673303 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E8F45B141CFB216700673303 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../../Music/music.mp3; sourceTree = "<group>"; };
+		E8F45B161CFB268400673303 /* bensound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bensound.mp3; path = ../../../Downloads/bensound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F45B131CFB20BF00673303 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +66,12 @@
 		E89ED6FC1CF9CD7000AE112C = {
 			isa = PBXGroup;
 			children = (
+				E8F45B121CFB20BF00673303 /* AVFoundation.framework */,
 				E89ED7071CF9CD7000AE112C /* CrossAndCircle */,
 				E89ED71C1CF9CD7000AE112C /* CrossAndCircleTests */,
 				E89ED7061CF9CD7000AE112C /* Products */,
+				E8F45B141CFB216700673303 /* music.mp3 */,
+				E8F45B161CFB268400673303 /* bensound.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,8 +189,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F45B171CFB268400673303 /* bensound.mp3 in Resources */,
 				E89ED7131CF9CD7000AE112C /* LaunchScreen.storyboard in Resources */,
 				E89ED7101CF9CD7000AE112C /* Assets.xcassets in Resources */,
+				E8F45B151CFB216700673303 /* music.mp3 in Resources */,
 				E89ED70E1CF9CD7000AE112C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +404,7 @@
 				E89ED7241CF9CD7000AE112C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E89ED7251CF9CD7000AE112C /* Build configuration list for PBXNativeTarget "CrossAndCircleTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +413,7 @@
 				E89ED7271CF9CD7000AE112C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
